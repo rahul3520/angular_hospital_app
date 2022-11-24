@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { PatientEntryComponent } from './patient-entry/patient-entry.component';
 import { PatientSearchComponent } from './patient-search/patient-search.component';
 import { PatientdelComponent } from './patientdel/patientdel.component';
+import { ViewPatientComponent } from './view-patient/view-patient.component';
 
 const myRoute:Routes=[
 
@@ -30,7 +31,8 @@ const myRoute:Routes=[
     AppComponent,
     PatientEntryComponent,
     PatientSearchComponent,
-    PatientdelComponent
+    PatientdelComponent,
+    ViewPatientComponent
   ],
   imports: [
     BrowserModule,
