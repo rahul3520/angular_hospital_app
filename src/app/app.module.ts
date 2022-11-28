@@ -9,6 +9,7 @@ import { PatientSearchComponent } from './patient-search/patient-search.componen
 import { PatientdelComponent } from './patientdel/patientdel.component';
 import { ViewPatientComponent } from './view-patient/view-patient.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { FormsModule } from '@angular/forms';
 
 const myRoute:Routes=[
 
@@ -43,7 +44,8 @@ const myRoute:Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
